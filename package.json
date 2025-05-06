@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+     "test-staged": "jest --passWithNoTests --findRelatedTests"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-config-standard": "^16.0.1",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
